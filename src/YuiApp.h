@@ -8,7 +8,7 @@
  **************************************************************/
 #ifndef YUIAPP_H_INCLUDED
 #define YUIAPP_H_INCLUDED
-
+#define WINDOWS
 #include <wx/app.h>
 
 class YuiApp : public wxApp

@@ -1,10 +1,16 @@
 # depslib dependency file v1.0
-1490710734 source:c:\users\x7536\desktop\yui\loginconfig.cpp
+1490757138 source:c:\users\x7536\desktop\yui\loginconfig.cpp
 	"LoginConfig.h"
+	"wx/file.h"
+	<wx/font.h>
 	<wx/intl.h>
 	<wx/string.h>
 
-1490710733 c:\users\x7536\desktop\yui\loginconfig.h
+1490757102 c:\users\x7536\desktop\yui\loginconfig.h
+	"src/YuiUtil.h"
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/button.h>
 	<wx/dialog.h>
 
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\dialog.h
@@ -1399,6 +1405,585 @@
 	<wx/intl.h>
 	<wx/string.h>
 
-1490710757 c:\users\x7536\desktop\yui\logindialog.h
+1490758025 c:\users\x7536\desktop\yui\logindialog.h
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/button.h>
 	<wx/dialog.h>
+
+1490711318 source:c:\users\x7536\desktop\yui\src\yuimain.cpp
+	"YuiMain.h"
+
+1490711672 c:\users\x7536\desktop\yui\src\yuimain.h
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/statline.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\sizer.h
+	"wx/defs.h"
+	"wx/window.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\stattext.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/stattext.h"
+	"wx/msw/stattext.h"
+	"wx/motif/stattext.h"
+	"wx/gtk/stattext.h"
+	"wx/gtk1/stattext.h"
+	"wx/osx/stattext.h"
+	"wx/cocoa/stattext.h"
+	"wx/os2/stattext.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\control.h
+	"wx/defs.h"
+	"wx/window.h"
+	"wx/univ/control.h"
+	"wx/msw/control.h"
+	"wx/motif/control.h"
+	"wx/gtk/control.h"
+	"wx/gtk1/control.h"
+	"wx/osx/control.h"
+	"wx/cocoa/control.h"
+	"wx/os2/control.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\control.h
+	"wx/univ/inphand.h"
+	"wx/univ/inpcons.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\control.h
+	"wx/dynarray.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\control.h
+	"wx/window.h"
+	"wx/list.h"
+	"wx/validate.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\control.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\control.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/list.h"
+	"wx/window.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\control.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\control.h
+	"wx/cocoa/NSControl.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\nscontrol.h
+	"wx/hashmap.h"
+	"wx/cocoa/ObjcAssociate.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\control.h
+	"wx/dynarray.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\stattext.h
+	"wx/generic/stattextg.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\stattextg.h
+	"wx/stattext.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\stattext.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\stattext.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\stattext.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\stattext.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\stattext.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\stattext.h
+	"wx/cocoa/NSTextField.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\nstextfield.h
+	"wx/hashmap.h"
+	"wx/cocoa/ObjcAssociate.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\stattext.h
+	"wx/control.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\statline.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/univ/statline.h"
+	"wx/msw/statline.h"
+	"wx/gtk/statline.h"
+	"wx/gtk1/statline.h"
+	"wx/os2/statline.h"
+	"wx/osx/statline.h"
+	"wx/cocoa/statline.h"
+	"wx/generic/statline.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\statline.h
+	"wx/defs.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\statline.h
+	"wx/defs.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\statline.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\button.h
+	"wx/defs.h"
+	"wx/anybutton.h"
+	"wx/univ/button.h"
+	"wx/msw/button.h"
+	"wx/motif/button.h"
+	"wx/gtk/button.h"
+	"wx/gtk1/button.h"
+	"wx/osx/button.h"
+	"wx/cocoa/button.h"
+	"wx/os2/button.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\anybutton.h
+	"wx/defs.h"
+	"wx/bitmap.h"
+	"wx/control.h"
+	"wx/univ/anybutton.h"
+	"wx/msw/anybutton.h"
+	"wx/gtk/anybutton.h"
+	"wx/osx/anybutton.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\anybutton.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\anybutton.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\anybutton.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\anybutton.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\button.h
+	"wx/bitmap.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\button.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\button.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\button.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\button.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/list.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\button.h
+	"wx/control.h"
+	"wx/gdicmn.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\button.h
+	"wx/cocoa/NSButton.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\nsbutton.h
+	"wx/hashmap.h"
+	"wx/cocoa/ObjcAssociate.h"
+	"wx/cocoa/ObjcRef.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\objcref.h
+	"wx/osx/core/cfref.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\button.h
+	"wx/control.h"
+
+1490710796 source:c:\users\x7536\desktop\yui\userframe.cpp
+	"UserFrame.h"
+	<wx/intl.h>
+	<wx/string.h>
+
+1490710796 c:\users\x7536\desktop\yui\userframe.h
+	<wx/frame.h>
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\frame.h
+	"wx/toplevel.h"
+	"wx/statusbr.h"
+	"wx/univ/frame.h"
+	"wx/msw/frame.h"
+	"wx/gtk/frame.h"
+	"wx/gtk1/frame.h"
+	"wx/motif/frame.h"
+	"wx/osx/frame.h"
+	"wx/cocoa/frame.h"
+	"wx/os2/frame.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\statusbr.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/list.h"
+	"wx/dynarray.h"
+	"wx/univ/statusbr.h"
+	"wx/msw/statusbar.h"
+	"wx/generic/statusbr.h"
+	"wx/osx/statusbr.h"
+	"wx/generic/statusbr.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\statusbr.h
+	"wx/univ/inpcons.h"
+	"wx/arrstr.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\statusbar.h
+	"wx/vector.h"
+	"wx/tooltip.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\tooltip.h
+	"wx/defs.h"
+	"wx/msw/tooltip.h"
+	"wx/gtk/tooltip.h"
+	"wx/gtk1/tooltip.h"
+	"wx/osx/tooltip.h"
+	"wx/cocoa/tooltip.h"
+	"wx/os2/tooltip.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\tooltip.h
+	"wx/object.h"
+	"wx/gdicmn.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\tooltip.h
+	"wx/string.h"
+	"wx/object.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\tooltip.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/object.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\tooltip.h
+	"wx/string.h"
+	"wx/event.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\tooltip.h
+	"wx/object.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\tooltip.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\statusbr.h
+	"wx/defs.h"
+	"wx/pen.h"
+	"wx/arrstr.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\statusbr.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\frame.h
+	"wx/toolbar.h"
+	"wx/accel.h"
+	"wx/icon.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\toolbar.h
+	"wx/defs.h"
+	"wx/tbarbase.h"
+	"wx/univ/toolbar.h"
+	"wx/msw/toolbar.h"
+	"wx/msw/wince/tbarwce.h"
+	"wx/motif/toolbar.h"
+	"wx/gtk/toolbar.h"
+	"wx/gtk1/toolbar.h"
+	"wx/osx/toolbar.h"
+	"wx/cocoa/toolbar.h"
+	"wx/os2/toolbar.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\tbarbase.h
+	"wx/defs.h"
+	"wx/bitmap.h"
+	"wx/list.h"
+	"wx/control.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\toolbar.h
+	"wx/button.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\toolbar.h
+	"wx/dynarray.h"
+	"wx/imaglist.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\imaglist.h
+	"wx/defs.h"
+	"wx/generic/imaglist.h"
+	"wx/msw/imaglist.h"
+	"wx/osx/imaglist.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\imaglist.h
+	"wx/list.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\imaglist.h
+	"wx/bitmap.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\imaglist.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/icon.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\wince\tbarwce.h
+	"wx/dynarray.h"
+	"wx/msw/toolbar.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\toolbar.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\toolbar.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\toolbar.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\toolbar.h
+	"wx/tbarbase.h"
+	"wx/dynarray.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\toolbar.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\toolbar.h
+	"wx/timer.h"
+	"wx/tbarbase.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\timer.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/longlong.h"
+	"wx/event.h"
+	"wx/stopwatch.h"
+	"wx/utils.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\stopwatch.h
+	"wx/defs.h"
+	"wx/longlong.h"
+	"wx/time.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\time.h
+	"wx/longlong.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\frame.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\frame.h
+	"wx/os2/wxrsc.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\wxrsc.h
+
+1490757709 source:c:\users\x7536\desktop\yui\src\yuiapp.cpp
+	"YuiApp.h"
+	"../LoginConfig.h"
+	"../LoginDialog.h"
+	"../UserFrame.h"
+	<wx/image.h>
+	<wx/file.h>
+
+1490754314 c:\users\x7536\desktop\yui\src\yuiapp.h
+	<wx/app.h>
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\app.h
+	"wx/event.h"
+	"wx/eventfilter.h"
+	"wx/build.h"
+	"wx/cmdargs.h"
+	"wx/init.h"
+	"wx/intl.h"
+	"wx/log.h"
+	"wx/unix/app.h"
+	"wx/msw/app.h"
+	"wx/motif/app.h"
+	"wx/dfb/app.h"
+	"wx/gtk/app.h"
+	"wx/gtk1/app.h"
+	"wx/x11/app.h"
+	"wx/osx/app.h"
+	"wx/cocoa/app.h"
+	"wx/os2/app.h"
+	"wx/univ/theme.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\eventfilter.h
+	"wx/defs.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\build.h
+	"wx/version.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cmdargs.h
+	"wx/arrstr.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\init.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/msw/init.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\init.h
+	"wx/msw/wrapwin.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\unix\app.h
+	<signal.h>
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\app.h
+	"wx/event.h"
+	"wx/icon.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\app.h
+	"wx/event.h"
+	"wx/hashmap.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\dfb\app.h
+	"wx/dfb/dfbptr.h"
+	"wx/vidmode.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\vidmode.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\app.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\app.h
+	"wx/frame.h"
+	"wx/icon.h"
+	"wx/strconv.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\x11\app.h
+	"wx/gdicmn.h"
+	"wx/event.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\app.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/gdicmn.h"
+	"wx/event.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\app.h
+	"wx/osx/core/cfref.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\app.h
+	<types.h>
+	<sys/ioctl.h>
+	<sys/select.h>
+	<sys/time.h>
+	<sys/types.h>
+	<unistd.h>
+	<utils.h>
+	<types.h>
+	"wx/event.h"
+	"wx/icon.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\theme.h
+	"wx/string.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\textctrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/textentry.h"
+	"wx/dynarray.h"
+	"wx/gdicmn.h"
+	"wx/ioswrap.h"
+	"wx/x11/textctrl.h"
+	"wx/univ/textctrl.h"
+	"wx/msw/wince/textctrlce.h"
+	"wx/msw/textctrl.h"
+	"wx/motif/textctrl.h"
+	"wx/gtk/textctrl.h"
+	"wx/gtk1/textctrl.h"
+	"wx/osx/textctrl.h"
+	"wx/cocoa/textctrl.h"
+	"wx/os2/textctrl.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\textentry.h
+	"wx/filefn.h"
+	"wx/gdicmn.h"
+	"wx/gtk/textentry.h"
+	"wx/osx/textentry.h"
+	"wx/msw/textentry.h"
+	"wx/motif/textentry.h"
+	"wx/os2/textentry.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\textentry.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\textentry.h
+	"wx/control.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\textentry.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\textentry.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\textentry.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\ioswrap.h
+	"wx/beforestd.h"
+	<iostream.h>
+	<iostream>
+	"wx/afterstd.h"
+	"wx/msw/winundef.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\x11\textctrl.h
+	"wx/univ/textctrl.h"
+	"wx/scrolwin.h"
+	"wx/arrstr.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\univ\textctrl.h
+	"wx/scrolwin.h"
+	"wx/univ/inphand.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\scrolwin.h
+	"wx/panel.h"
+	"wx/gtk/scrolwin.h"
+	"wx/gtk1/scrolwin.h"
+	"wx/generic/scrolwin.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\scrolwin.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\scrolwin.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\scrolwin.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\wince\textctrlce.h
+	"wx/dynarray.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\textctrl.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\textctrl.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\textctrl.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk1\textctrl.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\textctrl.h
+	"wx/control.h"
+	"wx/textctrl.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\textctrl.h
+	"wx/cocoa/NSTextField.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\textctrl.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\file.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/filefn.h"
+	"wx/convauto.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\convauto.h
+	"wx/strconv.h"
+	"wx/fontenc.h"
+
+1490757171 c:\users\x7536\desktop\yui\src\yuiutil.h
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<queue>
+	<stack>
+	<cmath>
+	<wx/app.h>
+	<wx/string.h>
+	<cstring>
+	<string>
+
+1490757246 source:c:\users\x7536\desktop\yui\yuiutil.cpp
+	"src/YuiUtil.h"
 

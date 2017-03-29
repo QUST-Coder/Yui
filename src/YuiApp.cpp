@@ -11,25 +11,50 @@
 
 //(*AppHeaders
 #include "../LoginConfig.h"
+#include "../LoginDialog.h"
+#include "../UserFrame.h"
 #include <wx/image.h>
+#include <wx/file.h>
 //*)
 
 IMPLEMENT_APP(YuiApp);
 
 bool YuiApp::OnInit()
 {
-    //(*AppInitialize
-    bool wxsOK = true;
-    wxInitAllImageHandlers();
-    if ( wxsOK )
-    {
-    	LoginConfig Dlg(0);
-    	SetTopWindow(&Dlg);
-    	Dlg.ShowModal();
-    	wxsOK = false;
-    }
-    //*)
+    //(
 
+    //)
+    bool wxsOK = true;
+    wxString ConfigDir=wxT("netconfig.cfg");
+    if(!wxFile::Exists(ConfigDir))
+    {
+
+        wxInitAllImageHandlers();
+        if ( wxsOK )
+        {
+            LoginConfig Dlg(0);
+            SetTopWindow(&Dlg);
+            Dlg.ShowModal();
+            wxsOK = false;
+        }
+    }
+    else
+    {
+        wxInitAllImageHandlers();
+        if(wxsOK)
+        {
+            LoginDialog Dlg(0);
+            SetTopWindow(&Dlg);
+            Dlg.ShowModal();
+            wxsOK = false;
+        }
+    }
+    #ifdef WINDOWS
+
+    #endif // WINDOWS
+    #ifdef LINUX
+
+    #endif // LINUX
     return wxsOK;
 
 }

@@ -75,11 +75,33 @@
 		<Linker>
 			<Add option="-mthreads" />
 		</Linker>
+		<Unit filename="LoginConfig.cpp" />
+		<Unit filename="LoginConfig.h" />
+		<Unit filename="LoginDialog.cpp" />
+		<Unit filename="LoginDialog.h" />
+		<Unit filename="UserFrame.cpp" />
+		<Unit filename="UserFrame.h" />
+		<Unit filename="YuiUtil.cpp" />
+		<Unit filename="src/YuiApp.cpp" />
+		<Unit filename="src/YuiApp.h" />
+		<Unit filename="src/YuiMain.cpp" />
+		<Unit filename="src/YuiMain.h" />
+		<Unit filename="src/YuiUtil.h" />
+		<Unit filename="wxsmith/LoginConfig.wxs" />
+		<Unit filename="wxsmith/LoginDialog.wxs" />
+		<Unit filename="wxsmith/UserFrame.wxs" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
 			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<resources>
+					<wxDialog wxs="wxsmith/LoginConfig.wxs" src="LoginConfig.cpp" hdr="LoginConfig.h" fwddecl="0" i18n="1" name="LoginConfig" language="CPP" />
+					<wxDialog wxs="wxsmith/LoginDialog.wxs" src="LoginDialog.cpp" hdr="LoginDialog.h" fwddecl="0" i18n="1" name="LoginDialog" language="CPP" />
+					<wxFrame wxs="wxsmith/UserFrame.wxs" src="UserFrame.cpp" hdr="UserFrame.h" fwddecl="0" i18n="1" name="UserFrame" language="CPP" />
+				</resources>
+			</wxsmith>
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

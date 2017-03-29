@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxDialog" name="LoginConfig">
+		<title>请输入服务器地址</title>
+		<size>423,115</size>
+		<font>
+			<size>12</size>
+			<style>normal</style>
+			<weight>normal</weight>
+			<underlined>0</underlined>
+			<family>swiss</family>
+			<face>Microsoft YaHei UI</face>
+		</font>
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL_ServerAddress" variable="ServerAddress" member="yes">
+			<pos>32,24</pos>
+			<size>248,32</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON_Confirm" variable="ServerAddressConfirm" member="yes">
+			<label>确定</label>
+			<pos>304,24</pos>
+			<size>60,32</size>
+			<handler function="OnServerAddressConfirmClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT_Warning" variable="WarningText" member="yes">
+			<label>请填写正确的IP地址</label>
+			<pos>88,72</pos>
+			<size>152,32</size>
+			<hidden>1</hidden>
+		</object>
 	</object>
 </wxsmith>
