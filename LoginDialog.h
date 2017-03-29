@@ -37,6 +37,7 @@ class LoginDialog: public wxDialog
 
 		//(*Handlers(LoginDialog)
 		void OnTextCtrl1Text(wxCommandEvent& event);
+		void OnLoginButtonClick(wxCommandEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1490757138 source:c:\users\x7536\desktop\yui\loginconfig.cpp
+1490767229 source:c:\users\x7536\desktop\yui\loginconfig.cpp
 	"LoginConfig.h"
 	"wx/file.h"
 	<wx/font.h>
@@ -1400,12 +1400,13 @@
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\dialog.h
 	"wx/panel.h"
 
-1490710758 source:c:\users\x7536\desktop\yui\logindialog.cpp
+1490767900 source:c:\users\x7536\desktop\yui\logindialog.cpp
 	"LoginDialog.h"
+	<wx/font.h>
 	<wx/intl.h>
 	<wx/string.h>
 
-1490758025 c:\users\x7536\desktop\yui\logindialog.h
+1490765822 c:\users\x7536\desktop\yui\logindialog.h
 	<wx/stattext.h>
 	<wx/textctrl.h>
 	<wx/button.h>
@@ -1603,7 +1604,8 @@
 	<wx/intl.h>
 	<wx/string.h>
 
-1490710796 c:\users\x7536\desktop\yui\userframe.h
+1490768055 c:\users\x7536\desktop\yui\userframe.h
+	<wx/stattext.h>
 	<wx/frame.h>
 
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\frame.h
@@ -1776,7 +1778,7 @@
 
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\wxrsc.h
 
-1490757709 source:c:\users\x7536\desktop\yui\src\yuiapp.cpp
+1490767946 source:c:\users\x7536\desktop\yui\src\yuiapp.cpp
 	"YuiApp.h"
 	"../LoginConfig.h"
 	"../LoginDialog.h"
@@ -1984,6 +1986,6 @@
 	<cstring>
 	<string>
 
-1490757246 source:c:\users\x7536\desktop\yui\yuiutil.cpp
+1490767172 source:c:\users\x7536\desktop\yui\yuiutil.cpp
 	"src/YuiUtil.h"
 

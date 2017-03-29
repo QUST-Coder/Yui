@@ -21,9 +21,7 @@ IMPLEMENT_APP(YuiApp);
 
 bool YuiApp::OnInit()
 {
-    //(
 
-    //)
     bool wxsOK = true;
     wxString ConfigDir=wxT("netconfig.cfg");
     if(!wxFile::Exists(ConfigDir))
@@ -32,29 +30,29 @@ bool YuiApp::OnInit()
         wxInitAllImageHandlers();
         if ( wxsOK )
         {
-            LoginConfig Dlg(0);
-            SetTopWindow(&Dlg);
-            Dlg.ShowModal();
-            wxsOK = false;
+            LoginConfig ConfigDlg(0);
+            SetTopWindow(&ConfigDlg);
+            ConfigDlg.ShowModal();
         }
     }
-    else
     {
         wxInitAllImageHandlers();
         if(wxsOK)
         {
-            LoginDialog Dlg(0);
-            SetTopWindow(&Dlg);
-            Dlg.ShowModal();
-            wxsOK = false;
+            LoginDialog LoginDlg(0);
+            SetTopWindow(&LoginDlg);
+            LoginDlg.ShowModal();
         }
     }
-    #ifdef WINDOWS
-
-    #endif // WINDOWS
-    #ifdef LINUX
-
-    #endif // LINUX
+    {
+        wxInitAllImageHandlers();
+        if(wxsOK)
+        {
+            UserFrame* userframe=new UserFrame(0);
+            userframe->Show();
+            SetTopWindow(userframe);
+        }
+    }
     return wxsOK;
 
 }

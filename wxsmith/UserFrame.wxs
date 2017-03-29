@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxFrame" name="UserFrame">
+		<size>1120,617</size>
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Label</label>
+			<pos>272,232</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Label</label>
+			<pos>328,288</pos>
+		</object>
 	</object>
 </wxsmith>

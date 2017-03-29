@@ -29,6 +29,7 @@ LoginConfig::LoginConfig(wxWindow* parent,wxWindowID id,const wxPoint& pos,const
 	ServerAddressConfirm = new wxButton(this, ID_BUTTON_Confirm, _("确定"), wxPoint(304,24), wxSize(60,32), 0, wxDefaultValidator, _T("ID_BUTTON_Confirm"));
 	WarningText = new wxStaticText(this, ID_STATICTEXT_Warning, _("请填写正确的IP地址"), wxPoint(88,72), wxSize(152,32), 0, _T("ID_STATICTEXT_Warning"));
 	WarningText->Hide();
+
 	Connect(ID_BUTTON_Confirm,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&LoginConfig::OnServerAddressConfirmClick);
 	//*)
 }
@@ -45,12 +46,12 @@ void LoginConfig::OnServerAddressConfirmClick(wxCommandEvent& event)
     wxFile ConfigFile;
     YuiUtil util;
     ConfigFile.Create(wxT("netconfig.cfg"),true);
-    //ConfigFile.Open(wxT("netconfig.cfg"));
-    if(util.is_ipaddress(ServerAddress->GetLineText(0)))
+    wxString ip=ServerAddress->GetLineText(0);
+    if(util.is_ipaddress(ip))
     {
-        wxString ServerIP=ServerAddress->GetLineText(0);
-        ConfigFile.Write(ServerIP);
+        ConfigFile.Write(ip);
         ConfigFile.Close();
+        Close();
     }
     else
     {

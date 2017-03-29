@@ -32,6 +32,8 @@ LoginDialog::LoginDialog(wxWindow* parent,wxWindowID id,const wxPoint& pos,const
 	Password = new wxTextCtrl(this, ID_TEXTCTRL_Password, wxEmptyString, wxPoint(80,72), wxSize(150,32), wxTE_PASSWORD, wxDefaultValidator, _T("ID_TEXTCTRL_Password"));
 	StaticText1 = new wxStaticText(this, ID_STATICTEXT1, _("ÓÃ»§Ãû"), wxPoint(24,24), wxDefaultSize, 0, _T("ID_STATICTEXT1"));
 	StaticText2 = new wxStaticText(this, ID_STATICTEXT2, _("ÃÜÂë"), wxPoint(32,72), wxDefaultSize, 0, _T("ID_STATICTEXT2"));
+
+	Connect(ID_BUTTON_Login,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&LoginDialog::OnLoginButtonClick);
 	//*)
 }
 
@@ -42,6 +44,11 @@ LoginDialog::~LoginDialog()
 }
 
 
-void LoginDialog::OnTextCtrl1Text(wxCommandEvent& event)
+
+void LoginDialog::OnLoginButtonClick(wxCommandEvent& event)
 {
+    if(UserName->GetLineText(0)=="123456"&&Password->GetLineText(0)=="123456")
+    {
+        Close();
+    }
 }
