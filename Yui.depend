@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1490767229 source:c:\users\x7536\desktop\yui\loginconfig.cpp
+1490975216 source:c:\users\x7536\desktop\yui\loginconfig.cpp
 	"LoginConfig.h"
 	"wx/file.h"
 	<wx/font.h>
 	<wx/intl.h>
 	<wx/string.h>
 
-1490757102 c:\users\x7536\desktop\yui\loginconfig.h
+1490974734 c:\users\x7536\desktop\yui\loginconfig.h
 	"src/YuiUtil.h"
 	<wx/stattext.h>
 	<wx/textctrl.h>
@@ -1400,13 +1400,15 @@
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\dialog.h
 	"wx/panel.h"
 
-1490767900 source:c:\users\x7536\desktop\yui\logindialog.cpp
+1490975017 source:c:\users\x7536\desktop\yui\logindialog.cpp
 	"LoginDialog.h"
+	"LoginConfig.h"
+	<wx/msgdlg.h>
 	<wx/font.h>
 	<wx/intl.h>
 	<wx/string.h>
 
-1490765822 c:\users\x7536\desktop\yui\logindialog.h
+1490974667 c:\users\x7536\desktop\yui\logindialog.h
 	<wx/stattext.h>
 	<wx/textctrl.h>
 	<wx/button.h>
@@ -1599,7 +1601,7 @@
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\button.h
 	"wx/control.h"
 
-1490710796 source:c:\users\x7536\desktop\yui\userframe.cpp
+1490768055 source:c:\users\x7536\desktop\yui\userframe.cpp
 	"UserFrame.h"
 	<wx/intl.h>
 	<wx/string.h>
@@ -1778,7 +1780,7 @@
 
 1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\wxrsc.h
 
-1490767946 source:c:\users\x7536\desktop\yui\src\yuiapp.cpp
+1490975168 source:c:\users\x7536\desktop\yui\src\yuiapp.cpp
 	"YuiApp.h"
 	"../LoginConfig.h"
 	"../LoginDialog.h"
@@ -1988,4 +1990,38 @@
 
 1490767172 source:c:\users\x7536\desktop\yui\yuiutil.cpp
 	"src/YuiUtil.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msgdlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/stockitem.h"
+	"wx/generic/msgdlgg.h"
+	"wx/cocoa/msgdlg.h"
+	"wx/msw/msgdlg.h"
+	"wx/motif/msgdlg.h"
+	"wx/gtk/msgdlg.h"
+	"wx/osx/msgdlg.h"
+	"wx/os2/msgdlg.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\stockitem.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/string.h"
+	"wx/accel.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\generic\msgdlgg.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\cocoa\msgdlg.h
+	"wx/msgdlg.h"
+	"wx/generic/msgdlgg.h"
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\msw\msgdlg.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\motif\msgdlg.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\gtk\msgdlg.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\osx\msgdlg.h
+
+1412614972 c:\users\x7536\desktop\wxlib\include\wx\os2\msgdlg.h
 

@@ -35,6 +35,7 @@ class LoginConfig: public wxDialog
 		void OnTextCtrl1Text(wxCommandEvent& event);
 		void OnButton1Click(wxCommandEvent& event);
 		void OnServerAddressConfirmClick(wxCommandEvent& event);
+		void OnInit(wxInitDialogEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()

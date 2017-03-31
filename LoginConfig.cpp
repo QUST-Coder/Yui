@@ -21,16 +21,19 @@ LoginConfig::LoginConfig(wxWindow* parent,wxWindowID id,const wxPoint& pos,const
 {
 	//(*Initialize(LoginConfig)
 	Create(parent, id, _("请输入服务器地址"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE, _T("id"));
-	SetClientSize(wxSize(423,115));
-	Move(wxDefaultPosition);
-	wxFont thisFont(12,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Microsoft YaHei UI"),wxFONTENCODING_DEFAULT);
+	SetClientSize(wxSize(390,80));
+	Move(wxPoint(-1,-1));
+	wxFont thisFont(10,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Microsoft YaHei UI"),wxFONTENCODING_DEFAULT);
 	SetFont(thisFont);
-	ServerAddress = new wxTextCtrl(this, ID_TEXTCTRL_ServerAddress, wxEmptyString, wxPoint(32,24), wxSize(248,32), 0, wxDefaultValidator, _T("ID_TEXTCTRL_ServerAddress"));
-	ServerAddressConfirm = new wxButton(this, ID_BUTTON_Confirm, _("确定"), wxPoint(304,24), wxSize(60,32), 0, wxDefaultValidator, _T("ID_BUTTON_Confirm"));
-	WarningText = new wxStaticText(this, ID_STATICTEXT_Warning, _("请填写正确的IP地址"), wxPoint(88,72), wxSize(152,32), 0, _T("ID_STATICTEXT_Warning"));
+	ServerAddress = new wxTextCtrl(this, ID_TEXTCTRL_ServerAddress, wxEmptyString, wxPoint(32,22), wxSize(248,26), 0, wxDefaultValidator, _T("ID_TEXTCTRL_ServerAddress"));
+	ServerAddressConfirm = new wxButton(this, ID_BUTTON_Confirm, _("确定"), wxPoint(304,22), wxSize(60,26), 0, wxDefaultValidator, _T("ID_BUTTON_Confirm"));
+	ServerAddressConfirm->SetDefault();
+	WarningText = new wxStaticText(this, ID_STATICTEXT_Warning, _("请填写正确的IP地址"), wxPoint(120,56), wxSize(152,24), 0, _T("ID_STATICTEXT_Warning"));
 	WarningText->Hide();
+	Center();
 
 	Connect(ID_BUTTON_Confirm,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&LoginConfig::OnServerAddressConfirmClick);
+//	Connect(wxID_ANY,wxEVT_INIT_DIALOG,(wxObjectEventFunction)&LoginConfig::OnInit);
 	//*)
 }
 
