@@ -1,6 +1,8 @@
 # CodeBlocks
 *.cfg
 *.txt
+*.cbp
+*.depend
 
 # Prerequisites
 *.d
