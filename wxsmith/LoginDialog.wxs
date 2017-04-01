@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxDialog" name="LoginDialog">
-		<size>323,130</size>
+		<centered>1</centered>
+		<pos>-1,-1</pos>
+		<size>340,198</size>
 		<font>
 			<size>12</size>
 			<style>normal</style>
@@ -12,28 +14,74 @@
 		</font>
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
+		<style>wxSTAY_ON_TOP</style>
 		<object class="wxButton" name="ID_BUTTON_Login" variable="LoginButton" member="yes">
 			<label>登录</label>
-			<pos>248,72</pos>
+			<default>1</default>
+			<pos>264,88</pos>
 			<size>60,32</size>
 			<handler function="OnLoginButtonClick" entry="EVT_BUTTON" />
 		</object>
 		<object class="wxTextCtrl" name="ID_TEXTCTRL_Username" variable="UserName" member="yes">
-			<pos>80,24</pos>
-			<size>150,32</size>
+			<pos>80,88</pos>
+			<size>168,30</size>
 		</object>
 		<object class="wxTextCtrl" name="ID_TEXTCTRL_Password" variable="Password" member="yes">
-			<pos>80,72</pos>
-			<size>150,32</size>
+			<pos>80,136</pos>
+			<size>168,30</size>
 			<style>wxTE_PASSWORD</style>
 		</object>
 		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
 			<label>用户名</label>
-			<pos>24,24</pos>
+			<pos>24,88</pos>
 		</object>
 		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
 			<label>密码</label>
-			<pos>32,72</pos>
+			<pos>32,136</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON_Exit" variable="ButtonExit" member="yes">
+			<label>退出</label>
+			<pos>264,136</pos>
+			<size>60,32</size>
+			<handler function="OnButtonExitClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Yui Version alpha 0.0.1</label>
+			<pos>192,176</pos>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Microsoft YaHei UI</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>请登录您的比赛账号</label>
+			<pos>72,16</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Microsoft YaHei UI</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>当前竞赛状态：</label>
+			<pos>56,56</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT_RaceStatu" variable="RaceStatu" member="yes">
+			<label>未搜索到比赛</label>
+			<pos>176,56</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON_Reset" variable="Reset" member="yes">
+			<label>！</label>
+			<pos>304,8</pos>
+			<size>27,32</size>
+			<handler function="OnResetClick" entry="EVT_BUTTON" />
 		</object>
 	</object>
 </wxsmith>

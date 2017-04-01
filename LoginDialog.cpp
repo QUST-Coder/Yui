@@ -91,6 +91,5 @@ void LoginDialog::OnButtonExitClick(wxCommandEvent& event)
 void LoginDialog::OnResetClick(wxCommandEvent& event)
 {
     LoginConfig ResetDlg(0);
-    //SetTopWindow(&ConfigDlg);
     ResetDlg.ShowModal();
 }

@@ -1,6 +1,7 @@
 #include "UserFrame.h"
 
 //(*InternalHeaders(UserFrame)
+#include <wx/settings.h>
 #include <wx/intl.h>
 #include <wx/string.h>
 //*)
@@ -21,8 +22,11 @@ UserFrame::UserFrame(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	Create(parent, id, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("id"));
 	SetClientSize(wxSize(1120,617));
 	Move(wxDefaultPosition);
+	SetForegroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_BACKGROUND));
+	SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_WINDOW));
 	StaticText1 = new wxStaticText(this, ID_STATICTEXT1, _("Label"), wxPoint(272,232), wxDefaultSize, 0, _T("ID_STATICTEXT1"));
 	StaticText2 = new wxStaticText(this, ID_STATICTEXT2, _("Label"), wxPoint(328,288), wxDefaultSize, 0, _T("ID_STATICTEXT2"));
+	Center();
 	//*)
 }
 

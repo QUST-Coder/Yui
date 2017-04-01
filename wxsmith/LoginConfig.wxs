@@ -2,9 +2,11 @@
 <wxsmith>
 	<object class="wxDialog" name="LoginConfig">
 		<title>请输入服务器地址</title>
-		<size>423,115</size>
+		<centered>1</centered>
+		<pos>-1,-1</pos>
+		<size>390,80</size>
 		<font>
-			<size>12</size>
+			<size>10</size>
 			<style>normal</style>
 			<weight>normal</weight>
 			<underlined>0</underlined>
@@ -13,20 +15,22 @@
 		</font>
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
+		<handler function="OnInit" entry="EVT_INIT_DIALOG" />
 		<object class="wxTextCtrl" name="ID_TEXTCTRL_ServerAddress" variable="ServerAddress" member="yes">
-			<pos>32,24</pos>
-			<size>248,32</size>
+			<pos>32,22</pos>
+			<size>248,26</size>
 		</object>
 		<object class="wxButton" name="ID_BUTTON_Confirm" variable="ServerAddressConfirm" member="yes">
 			<label>确定</label>
-			<pos>304,24</pos>
-			<size>60,32</size>
+			<default>1</default>
+			<pos>304,22</pos>
+			<size>60,26</size>
 			<handler function="OnServerAddressConfirmClick" entry="EVT_BUTTON" />
 		</object>
 		<object class="wxStaticText" name="ID_STATICTEXT_Warning" variable="WarningText" member="yes">
 			<label>请填写正确的IP地址</label>
-			<pos>88,72</pos>
-			<size>152,32</size>
+			<pos>120,56</pos>
+			<size>152,24</size>
 			<hidden>1</hidden>
 		</object>
 	</object>
